@@ -1,0 +1,43 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 450,
+    "height": 450,
+    "background" : "transparent",
+    "data": {
+      "url": "renewable_proportion_filt.csv"
+    },
+    "params": [
+        {
+            "name": "Year_At",
+            "value": 2000,
+            "bind": {
+              "input": "range",
+              "min": 2000,
+              "max": 2022,
+              "step": 1,
+              "name": "Year: "
+          } }
+    ],
+    "transform": [{"filter": "datum.Year == Year_At" 
+    }],
+    
+    "layer": [{
+      "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"
+      }
+    },
+    {
+      "mark": {"type": "text", "radiusOffset": 10},
+      "encoding": {
+        "text": {"field": "ProportionRenewable", "type": "quantitative", "format": ".2f"}
+      }
+    }],
+    "encoding": {
+      "theta": {"field": "ProportionRenewable", "type": "quantitative", "stack": true},
+      "radius": {"field": "ProportionRenewable", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
+      "color": {"field": "Entity", "type": "nominal", "legend": {"title": "Country"}},
+      "tooltip":[
+      {"field": "Entity", "type": "nominal", "title": "Country"},
+      {"field": "ProportionRenewable", "type": "quantitative", "title": "Renewable Energy Proportion to total energy produced", "format": ".2f"}]
+    }
+    
+  }

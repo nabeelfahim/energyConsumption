@@ -1,0 +1,415 @@
+Entity,Code,Year,Energy_Source,Value
+Africa,,2000,Electricity from fossil fuels (TWh),330.16
+Africa,,2001,Electricity from fossil fuels (TWh),342.21
+Africa,,2002,Electricity from fossil fuels (TWh),363.9
+Africa,,2003,Electricity from fossil fuels (TWh),387.47
+Africa,,2004,Electricity from fossil fuels (TWh),410.43
+Africa,,2005,Electricity from fossil fuels (TWh),430.06
+Africa,,2006,Electricity from fossil fuels (TWh),451.37
+Africa,,2007,Electricity from fossil fuels (TWh),471.97998
+Africa,,2008,Electricity from fossil fuels (TWh),479.28
+Africa,,2009,Electricity from fossil fuels (TWh),479.21
+Africa,,2010,Electricity from fossil fuels (TWh),533.43
+Africa,,2011,Electricity from fossil fuels (TWh),538.66
+Africa,,2012,Electricity from fossil fuels (TWh),564.37
+Africa,,2013,Electricity from fossil fuels (TWh),573.79
+Africa,,2014,Electricity from fossil fuels (TWh),588.19
+Africa,,2015,Electricity from fossil fuels (TWh),610.17
+Africa,,2016,Electricity from fossil fuels (TWh),611.23
+Africa,,2017,Electricity from fossil fuels (TWh),631.89
+Africa,,2018,Electricity from fossil fuels (TWh),638.15
+Africa,,2019,Electricity from fossil fuels (TWh),636.96
+Africa,,2020,Electricity from fossil fuels (TWh),612.89
+Africa,,2021,Electricity from fossil fuels (TWh),635.06
+Africa,,2022,Electricity from fossil fuels (TWh),670.19037
+Asia,,2000,Electricity from fossil fuels (TWh),3537.95
+Asia,,2001,Electricity from fossil fuels (TWh),3697.52
+Asia,,2002,Electricity from fossil fuels (TWh),3999.67
+Asia,,2003,Electricity from fossil fuels (TWh),4381.85
+Asia,,2004,Electricity from fossil fuels (TWh),4719.1
+Asia,,2005,Electricity from fossil fuels (TWh),5096.95
+Asia,,2006,Electricity from fossil fuels (TWh),5535.55
+Asia,,2007,Electricity from fossil fuels (TWh),6132.05
+Asia,,2008,Electricity from fossil fuels (TWh),6245.5303
+Asia,,2009,Electricity from fossil fuels (TWh),6531.77
+Asia,,2010,Electricity from fossil fuels (TWh),7178.37
+Asia,,2011,Electricity from fossil fuels (TWh),7891.71
+Asia,,2012,Electricity from fossil fuels (TWh),8263.93
+Asia,,2013,Electricity from fossil fuels (TWh),8687.8
+Asia,,2014,Electricity from fossil fuels (TWh),9069.57
+Asia,,2015,Electricity from fossil fuels (TWh),9027.089
+Asia,,2016,Electricity from fossil fuels (TWh),9334.76
+Asia,,2017,Electricity from fossil fuels (TWh),9774.99
+Asia,,2018,Electricity from fossil fuels (TWh),10255.47
+Asia,,2019,Electricity from fossil fuels (TWh),10319.561
+Asia,,2020,Electricity from fossil fuels (TWh),10276.09
+Asia,,2021,Electricity from fossil fuels (TWh),11017.86
+Asia,,2022,Electricity from fossil fuels (TWh),11311.182
+Europe,,2000,Electricity from fossil fuels (TWh),2338.17
+Europe,,2001,Electricity from fossil fuels (TWh),2359.45
+Europe,,2002,Electricity from fossil fuels (TWh),2422.89
+Europe,,2003,Electricity from fossil fuels (TWh),2529.52
+Europe,,2004,Electricity from fossil fuels (TWh),2533.48
+Europe,,2005,Electricity from fossil fuels (TWh),2575.42
+Europe,,2006,Electricity from fossil fuels (TWh),2649.72
+Europe,,2007,Electricity from fossil fuels (TWh),2705.99
+Europe,,2008,Electricity from fossil fuels (TWh),2698.85
+Europe,,2009,Electricity from fossil fuels (TWh),2476.46
+Europe,,2010,Electricity from fossil fuels (TWh),2568.6099
+Europe,,2011,Electricity from fossil fuels (TWh),2548.6301
+Europe,,2012,Electricity from fossil fuels (TWh),2483.27
+Europe,,2013,Electricity from fossil fuels (TWh),2353.08
+Europe,,2014,Electricity from fossil fuels (TWh),2217.77
+Europe,,2015,Electricity from fossil fuels (TWh),2230.3
+Europe,,2016,Electricity from fossil fuels (TWh),2266.6401
+Europe,,2017,Electricity from fossil fuels (TWh),2269.13
+Europe,,2018,Electricity from fossil fuels (TWh),2194.55
+Europe,,2019,Electricity from fossil fuels (TWh),2104.41
+Europe,,2020,Electricity from fossil fuels (TWh),1900.9299
+Europe,,2021,Electricity from fossil fuels (TWh),2018.37
+Europe,,2022,Electricity from fossil fuels (TWh),2015.6692
+North America,,2000,Electricity from fossil fuels (TWh),3065.4001
+North America,,2001,Electricity from fossil fuels (TWh),3067.3599
+North America,,2002,Electricity from fossil fuels (TWh),3122.34
+North America,,2003,Electricity from fossil fuels (TWh),3157.32
+North America,,2004,Electricity from fossil fuels (TWh),3221.9502
+North America,,2005,Electricity from fossil fuels (TWh),3311.88
+North America,,2006,Electricity from fossil fuels (TWh),3286.62
+North America,,2007,Electricity from fossil fuels (TWh),3415.91
+North America,,2008,Electricity from fossil fuels (TWh),3330.71
+North America,,2009,Electricity from fossil fuels (TWh),3132.0999
+North America,,2010,Electricity from fossil fuels (TWh),3303.31
+North America,,2011,Electricity from fossil fuels (TWh),3225.52
+North America,,2012,Electricity from fossil fuels (TWh),3218.11
+North America,,2013,Electricity from fossil fuels (TWh),3188.0698
+North America,,2014,Electricity from fossil fuels (TWh),3186.42
+North America,,2015,Electricity from fossil fuels (TWh),3181.0
+North America,,2016,Electricity from fossil fuels (TWh),3111.44
+North America,,2017,Electricity from fossil fuels (TWh),2981.2998
+North America,,2018,Electricity from fossil fuels (TWh),3119.76
+North America,,2019,Electricity from fossil fuels (TWh),3037.0898
+North America,,2020,Electricity from fossil fuels (TWh),2861.05
+North America,,2021,Electricity from fossil fuels (TWh),2955.97
+North America,,2022,Electricity from fossil fuels (TWh),3111.6265
+Oceania,,2000,Electricity from fossil fuels (TWh),196.70001
+Oceania,,2001,Electricity from fossil fuels (TWh),213.5
+Oceania,,2002,Electricity from fossil fuels (TWh),214.43999
+Oceania,,2003,Electricity from fossil fuels (TWh),213.98
+Oceania,,2004,Electricity from fossil fuels (TWh),220.93
+Oceania,,2005,Electricity from fossil fuels (TWh),216.40999
+Oceania,,2006,Electricity from fossil fuels (TWh),219.26
+Oceania,,2007,Electricity from fossil fuels (TWh),228.91998
+Oceania,,2008,Electricity from fossil fuels (TWh),231.71
+Oceania,,2009,Electricity from fossil fuels (TWh),234.34999
+Oceania,,2010,Electricity from fossil fuels (TWh),230.47
+Oceania,,2011,Electricity from fossil fuels (TWh),230.4
+Oceania,,2012,Electricity from fossil fuels (TWh),225.22
+Oceania,,2013,Electricity from fossil fuels (TWh),213.41
+Oceania,,2014,Electricity from fossil fuels (TWh),222.04001
+Oceania,,2015,Electricity from fossil fuels (TWh),214.1
+Oceania,,2016,Electricity from fossil fuels (TWh),222.79001
+Oceania,,2017,Electricity from fossil fuels (TWh),225.77
+Oceania,,2018,Electricity from fossil fuels (TWh),223.26
+Oceania,,2019,Electricity from fossil fuels (TWh),213.18001
+Oceania,,2020,Electricity from fossil fuels (TWh),204.45999
+Oceania,,2021,Electricity from fossil fuels (TWh),193.1
+Oceania,,2022,Electricity from fossil fuels (TWh),182.20547
+South America,,2000,Electricity from fossil fuels (TWh),141.36
+South America,,2001,Electricity from fossil fuels (TWh),146.34999
+South America,,2002,Electricity from fossil fuels (TWh),142.24
+South America,,2003,Electricity from fossil fuels (TWh),152.45
+South America,,2004,Electricity from fossil fuels (TWh),177.38
+South America,,2005,Electricity from fossil fuels (TWh),176.25
+South America,,2006,Electricity from fossil fuels (TWh),186.8
+South America,,2007,Electricity from fossil fuels (TWh),205.82999
+South America,,2008,Electricity from fossil fuels (TWh),231.01001
+South America,,2009,Electricity from fossil fuels (TWh),216.27
+South America,,2010,Electricity from fossil fuels (TWh),257.46
+South America,,2011,Electricity from fossil fuels (TWh),250.36
+South America,,2012,Electricity from fossil fuels (TWh),300.72
+South America,,2013,Electricity from fossil fuels (TWh),348.73
+South America,,2014,Electricity from fossil fuels (TWh),371.39
+South America,,2015,Electricity from fossil fuels (TWh),384.61002
+South America,,2016,Electricity from fossil fuels (TWh),354.03
+South America,,2017,Electricity from fossil fuels (TWh),340.73
+South America,,2018,Electricity from fossil fuels (TWh),324.83002
+South America,,2019,Electricity from fossil fuels (TWh),322.84
+South America,,2020,Electricity from fossil fuels (TWh),310.95
+South America,,2021,Electricity from fossil fuels (TWh),380.97003
+South America,,2022,Electricity from fossil fuels (TWh),288.15454
+Africa,,2000,Electricity from nuclear (TWh),13.01
+Africa,,2001,Electricity from nuclear (TWh),10.72
+Africa,,2002,Electricity from nuclear (TWh),11.99
+Africa,,2003,Electricity from nuclear (TWh),12.66
+Africa,,2004,Electricity from nuclear (TWh),14.28
+Africa,,2005,Electricity from nuclear (TWh),12.24
+Africa,,2006,Electricity from nuclear (TWh),10.07
+Africa,,2007,Electricity from nuclear (TWh),12.6
+Africa,,2008,Electricity from nuclear (TWh),12.75
+Africa,,2009,Electricity from nuclear (TWh),11.57
+Africa,,2010,Electricity from nuclear (TWh),12.9
+Africa,,2011,Electricity from nuclear (TWh),12.94
+Africa,,2012,Electricity from nuclear (TWh),12.4
+Africa,,2013,Electricity from nuclear (TWh),13.61
+Africa,,2014,Electricity from nuclear (TWh),14.76
+Africa,,2015,Electricity from nuclear (TWh),10.97
+Africa,,2016,Electricity from nuclear (TWh),15.21
+Africa,,2017,Electricity from nuclear (TWh),15.09
+Africa,,2018,Electricity from nuclear (TWh),10.56
+Africa,,2019,Electricity from nuclear (TWh),13.6
+Africa,,2020,Electricity from nuclear (TWh),11.62
+Africa,,2021,Electricity from nuclear (TWh),12.15
+Africa,,2022,Electricity from nuclear (TWh),10.1
+Asia,,2000,Electricity from nuclear (TWh),482.7
+Asia,,2001,Electricity from nuclear (TWh),486.21
+Asia,,2002,Electricity from nuclear (TWh),481.41
+Asia,,2003,Electricity from nuclear (TWh),455.2
+Asia,,2004,Electricity from nuclear (TWh),507.85
+Asia,,2005,Electricity from nuclear (TWh),533.79004
+Asia,,2006,Electricity from nuclear (TWh),550.03
+Asia,,2007,Electricity from nuclear (TWh),529.1
+Asia,,2008,Electricity from nuclear (TWh),513.97
+Asia,,2009,Electricity from nuclear (TWh),537.54
+Asia,,2010,Electricity from nuclear (TWh),564.55
+Asia,,2011,Electricity from nuclear (TWh),468.99
+Asia,,2012,Electricity from nuclear (TWh),339.39
+Asia,,2013,Electricity from nuclear (TWh),340.17
+Asia,,2014,Electricity from nuclear (TWh),370.39
+Asia,,2015,Electricity from nuclear (TWh),416.96002
+Asia,,2016,Electricity from nuclear (TWh),465.91
+Asia,,2017,Electricity from nuclear (TWh),494.47
+Asia,,2018,Electricity from nuclear (TWh),554.70996
+Asia,,2019,Electricity from nuclear (TWh),646.25
+Asia,,2020,Electricity from nuclear (TWh),656.77
+Asia,,2021,Electricity from nuclear (TWh),713.87
+Asia,,2022,Electricity from nuclear (TWh),767.377
+Europe,,2000,Electricity from nuclear (TWh),1169.93
+Europe,,2001,Electricity from nuclear (TWh),1205.99
+Europe,,2002,Electricity from nuclear (TWh),1228.19
+Europe,,2003,Electricity from nuclear (TWh),1244.56
+Europe,,2004,Electricity from nuclear (TWh),1258.5599
+Europe,,2005,Electricity from nuclear (TWh),1246.21
+Europe,,2006,Electricity from nuclear (TWh),1251.13
+Europe,,2007,Electricity from nuclear (TWh),1202.29
+Europe,,2008,Electricity from nuclear (TWh),1205.39
+Europe,,2009,Electricity from nuclear (TWh),1155.99
+Europe,,2010,Electricity from nuclear (TWh),1190.37
+Europe,,2011,Electricity from nuclear (TWh),1184.5801
+Europe,,2012,Electricity from nuclear (TWh),1163.12
+Europe,,2013,Electricity from nuclear (TWh),1146.2999
+Europe,,2014,Electricity from nuclear (TWh),1160.15
+Europe,,2015,Electricity from nuclear (TWh),1149.5599
+Europe,,2016,Electricity from nuclear (TWh),1124.92
+Europe,,2017,Electricity from nuclear (TWh),1124.94
+Europe,,2018,Electricity from nuclear (TWh),1117.57
+Europe,,2019,Electricity from nuclear (TWh),1125.34
+Europe,,2020,Electricity from nuclear (TWh),1049.63
+Europe,,2021,Electricity from nuclear (TWh),1111.45
+Europe,,2022,Electricity from nuclear (TWh),969.86993
+North America,,2000,Electricity from nuclear (TWh),830.86
+North America,,2001,Electricity from nuclear (TWh),849.98004
+North America,,2002,Electricity from nuclear (TWh),861.07
+North America,,2003,Electricity from nuclear (TWh),844.86
+North America,,2004,Electricity from nuclear (TWh),883.13
+North America,,2005,Electricity from nuclear (TWh),879.14
+North America,,2006,Electricity from nuclear (TWh),890.06
+North America,,2007,Electricity from nuclear (TWh),904.56
+North America,,2008,Electricity from nuclear (TWh),903.87006
+North America,,2009,Electricity from nuclear (TWh),894.08997
+North America,,2010,Electricity from nuclear (TWh),898.16
+North America,,2011,Electricity from nuclear (TWh),888.15
+North America,,2012,Electricity from nuclear (TWh),867.23004
+North America,,2013,Electricity from nuclear (TWh),897.98004
+North America,,2014,Electricity from nuclear (TWh),907.68
+North America,,2015,Electricity from nuclear (TWh),904.41
+North America,,2016,Electricity from nuclear (TWh),911.65
+North America,,2017,Electricity from nuclear (TWh),911.09
+North America,,2018,Electricity from nuclear (TWh),915.43
+North America,,2019,Electricity from nuclear (TWh),915.75995
+North America,,2020,Electricity from nuclear (TWh),893.4
+North America,,2021,Electricity from nuclear (TWh),878.44
+North America,,2022,Electricity from nuclear (TWh),909.636
+Oceania,,2000,Electricity from nuclear (TWh),0.0
+Oceania,,2001,Electricity from nuclear (TWh),0.0
+Oceania,,2002,Electricity from nuclear (TWh),0.0
+Oceania,,2003,Electricity from nuclear (TWh),0.0
+Oceania,,2004,Electricity from nuclear (TWh),0.0
+Oceania,,2005,Electricity from nuclear (TWh),0.0
+Oceania,,2006,Electricity from nuclear (TWh),0.0
+Oceania,,2007,Electricity from nuclear (TWh),0.0
+Oceania,,2008,Electricity from nuclear (TWh),0.0
+Oceania,,2009,Electricity from nuclear (TWh),0.0
+Oceania,,2010,Electricity from nuclear (TWh),0.0
+Oceania,,2011,Electricity from nuclear (TWh),0.0
+Oceania,,2012,Electricity from nuclear (TWh),0.0
+Oceania,,2013,Electricity from nuclear (TWh),0.0
+Oceania,,2014,Electricity from nuclear (TWh),0.0
+Oceania,,2015,Electricity from nuclear (TWh),0.0
+Oceania,,2016,Electricity from nuclear (TWh),0.0
+Oceania,,2017,Electricity from nuclear (TWh),0.0
+Oceania,,2018,Electricity from nuclear (TWh),0.0
+Oceania,,2019,Electricity from nuclear (TWh),0.0
+Oceania,,2020,Electricity from nuclear (TWh),0.0
+Oceania,,2021,Electricity from nuclear (TWh),0.0
+Oceania,,2022,Electricity from nuclear (TWh),
+South America,,2000,Electricity from nuclear (TWh),10.93
+South America,,2001,Electricity from nuclear (TWh),20.810001
+South America,,2002,Electricity from nuclear (TWh),19.23
+South America,,2003,Electricity from nuclear (TWh),20.43
+South America,,2004,Electricity from nuclear (TWh),18.91
+South America,,2005,Electricity from nuclear (TWh),15.57
+South America,,2006,Electricity from nuclear (TWh),20.13
+South America,,2007,Electricity from nuclear (TWh),18.369999
+South America,,2008,Electricity from nuclear (TWh),20.060001
+South America,,2009,Electricity from nuclear (TWh),19.810001
+South America,,2010,Electricity from nuclear (TWh),20.460001
+South America,,2011,Electricity from nuclear (TWh),20.689999
+South America,,2012,Electricity from nuclear (TWh),21.07
+South America,,2013,Electricity from nuclear (TWh),20.38
+South America,,2014,Electricity from nuclear (TWh),19.720001
+South America,,2015,Electricity from nuclear (TWh),20.55
+South America,,2016,Electricity from nuclear (TWh),22.79
+South America,,2017,Electricity from nuclear (TWh),20.630001
+South America,,2018,Electricity from nuclear (TWh),21.3
+South America,,2019,Electricity from nuclear (TWh),23.13
+South America,,2020,Electricity from nuclear (TWh),23.27
+South America,,2021,Electricity from nuclear (TWh),24.869999
+South America,,2022,Electricity from nuclear (TWh),22.028255
+Africa,,2000,Electricity from renewables (TWh),77.38
+Africa,,2001,Electricity from renewables (TWh),84.33
+Africa,,2002,Electricity from renewables (TWh),86.45
+Africa,,2003,Electricity from renewables (TWh),85.08
+Africa,,2004,Electricity from renewables (TWh),90.560005
+Africa,,2005,Electricity from renewables (TWh),93.35
+Africa,,2006,Electricity from renewables (TWh),96.43
+Africa,,2007,Electricity from renewables (TWh),98.71
+Africa,,2008,Electricity from renewables (TWh),100.729996
+Africa,,2009,Electricity from renewables (TWh),104.72
+Africa,,2010,Electricity from renewables (TWh),116.78
+Africa,,2011,Electricity from renewables (TWh),118.18
+Africa,,2012,Electricity from renewables (TWh),118.590004
+Africa,,2013,Electricity from renewables (TWh),125.520004
+Africa,,2014,Electricity from renewables (TWh),135.87
+Africa,,2015,Electricity from renewables (TWh),139.96
+Africa,,2016,Electricity from renewables (TWh),142.59
+Africa,,2017,Electricity from renewables (TWh),152.12
+Africa,,2018,Electricity from renewables (TWh),166.31
+Africa,,2019,Electricity from renewables (TWh),176.95999
+Africa,,2020,Electricity from renewables (TWh),183.0
+Africa,,2021,Electricity from renewables (TWh),192.12
+Africa,,2022,Electricity from renewables (TWh),207.48434
+Asia,,2000,Electricity from renewables (TWh),616.87
+Asia,,2001,Electricity from renewables (TWh),664.94
+Asia,,2002,Electricity from renewables (TWh),687.88
+Asia,,2003,Electricity from renewables (TWh),716.94
+Asia,,2004,Electricity from renewables (TWh),838.22
+Asia,,2005,Electricity from renewables (TWh),878.33
+Asia,,2006,Electricity from renewables (TWh),964.83997
+Asia,,2007,Electricity from renewables (TWh),1019.36
+Asia,,2008,Electricity from renewables (TWh),1170.98
+Asia,,2009,Electricity from renewables (TWh),1173.66
+Asia,,2010,Electricity from renewables (TWh),1366.33
+Asia,,2011,Electricity from renewables (TWh),1428.57
+Asia,,2012,Electricity from renewables (TWh),1652.2
+Asia,,2013,Electricity from renewables (TWh),1807.65
+Asia,,2014,Electricity from renewables (TWh),2019.2999
+Asia,,2015,Electricity from renewables (TWh),2174.6702
+Asia,,2016,Electricity from renewables (TWh),2357.93
+Asia,,2017,Electricity from renewables (TWh),2592.4502
+Asia,,2018,Electricity from renewables (TWh),2834.2598
+Asia,,2019,Electricity from renewables (TWh),3116.72
+Asia,,2020,Electricity from renewables (TWh),3332.53
+Asia,,2021,Electricity from renewables (TWh),3656.46
+Asia,,2022,Electricity from renewables (TWh),4017.3186
+Europe,,2000,Electricity from renewables (TWh),797.27
+Europe,,2001,Electricity from renewables (TWh),818.89
+Europe,,2002,Electricity from renewables (TWh),763.74
+Europe,,2003,Electricity from renewables (TWh),740.52
+Europe,,2004,Electricity from renewables (TWh),815.77997
+Europe,,2005,Electricity from renewables (TWh),846.92
+Europe,,2006,Electricity from renewables (TWh),856.28
+Europe,,2007,Electricity from renewables (TWh),902.73
+Europe,,2008,Electricity from renewables (TWh),951.17004
+Europe,,2009,Electricity from renewables (TWh),985.53
+Europe,,2010,Electricity from renewables (TWh),1061.02
+Europe,,2011,Electricity from renewables (TWh),1048.18
+Europe,,2012,Electricity from renewables (TWh),1166.27
+Europe,,2013,Electricity from renewables (TWh),1271.5499
+Europe,,2014,Electricity from renewables (TWh),1306.37
+Europe,,2015,Electricity from renewables (TWh),1336.78
+Europe,,2016,Electricity from renewables (TWh),1376.13
+Europe,,2017,Electricity from renewables (TWh),1390.96
+Europe,,2018,Electricity from renewables (TWh),1484.65
+Europe,,2019,Electricity from renewables (TWh),1522.63
+Europe,,2020,Electricity from renewables (TWh),1663.44
+Europe,,2021,Electricity from renewables (TWh),1691.52
+Europe,,2022,Electricity from renewables (TWh),1674.6447
+North America,,2000,Electricity from renewables (TWh),779.74
+North America,,2001,Electricity from renewables (TWh),678.52997
+North America,,2002,Electricity from renewables (TWh),749.81995
+North America,,2003,Electricity from renewables (TWh),747.11
+North America,,2004,Electricity from renewables (TWh),754.83
+North America,,2005,Electricity from renewables (TWh),792.39
+North America,,2006,Electricity from renewables (TWh),813.81
+North America,,2007,Electricity from renewables (TWh),794.46
+North America,,2008,Electricity from renewables (TWh),846.19995
+North America,,2009,Electricity from renewables (TWh),866.52
+North America,,2010,Electricity from renewables (TWh),874.06006
+North America,,2011,Electricity from renewables (TWh),984.8
+North America,,2012,Electricity from renewables (TWh),973.39
+North America,,2013,Electricity from renewables (TWh),1018.30005
+North America,,2014,Electricity from renewables (TWh),1052.7899
+North America,,2015,Electricity from renewables (TWh),1065.1901
+North America,,2016,Electricity from renewables (TWh),1146.2799
+North America,,2017,Electricity from renewables (TWh),1244.78
+North America,,2018,Electricity from renewables (TWh),1268.74
+North America,,2019,Electricity from renewables (TWh),1287.26
+North America,,2020,Electricity from renewables (TWh),1370.34
+North America,,2021,Electricity from renewables (TWh),1421.98
+North America,,2022,Electricity from renewables (TWh),1517.7882
+Oceania,,2000,Electricity from renewables (TWh),46.65
+Oceania,,2001,Electricity from renewables (TWh),44.27
+Oceania,,2002,Electricity from renewables (TWh),47.45
+Oceania,,2003,Electricity from renewables (TWh),47.41
+Oceania,,2004,Electricity from renewables (TWh),52.07
+Oceania,,2005,Electricity from renewables (TWh),49.649998
+Oceania,,2006,Electricity from renewables (TWh),51.53
+Oceania,,2007,Electricity from renewables (TWh),52.03
+Oceania,,2008,Electricity from renewables (TWh),49.16
+Oceania,,2009,Electricity from renewables (TWh),51.59
+Oceania,,2010,Electricity from renewables (TWh),55.929996
+Oceania,,2011,Electricity from renewables (TWh),63.2
+Oceania,,2012,Electricity from renewables (TWh),60.8
+Oceania,,2013,Electricity from renewables (TWh),68.83
+Oceania,,2014,Electricity from renewables (TWh),72.770004
+Oceania,,2015,Electricity from renewables (TWh),70.74999
+Oceania,,2016,Electricity from renewables (TWh),77.33
+Oceania,,2017,Electricity from renewables (TWh),78.81
+Oceania,,2018,Electricity from renewables (TWh),82.009995
+Oceania,,2019,Electricity from renewables (TWh),92.3
+Oceania,,2020,Electricity from renewables (TWh),101.55
+Oceania,,2021,Electricity from renewables (TWh),109.97
+Oceania,,2022,Electricity from renewables (TWh),129.5072
+South America,,2000,Electricity from renewables (TWh),536.71
+South America,,2001,Electricity from renewables (TWh),505.28998
+South America,,2002,Electricity from renewables (TWh),530.47003
+South America,,2003,Electricity from renewables (TWh),554.75
+South America,,2004,Electricity from renewables (TWh),575.68
+South America,,2005,Electricity from renewables (TWh),609.38
+South America,,2006,Electricity from renewables (TWh),637.61
+South America,,2007,Electricity from renewables (TWh),662.73
+South America,,2008,Electricity from renewables (TWh),668.67
+South America,,2009,Electricity from renewables (TWh),690.17004
+South America,,2010,Electricity from renewables (TWh),705.85
+South America,,2011,Electricity from renewables (TWh),750.67
+South America,,2012,Electricity from renewables (TWh),739.81
+South America,,2013,Electricity from renewables (TWh),733.12
+South America,,2014,Electricity from renewables (TWh),707.65
+South America,,2015,Electricity from renewables (TWh),723.29
+South America,,2016,Electricity from renewables (TWh),752.76
+South America,,2017,Electricity from renewables (TWh),777.25
+South America,,2018,Electricity from renewables (TWh),810.45
+South America,,2019,Electricity from renewables (TWh),811.59
+South America,,2020,Electricity from renewables (TWh),824.99005
+South America,,2021,Electricity from renewables (TWh),820.76
+South America,,2022,Electricity from renewables (TWh),943.7243

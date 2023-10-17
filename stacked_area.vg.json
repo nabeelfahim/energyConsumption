@@ -1,0 +1,119 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 450,
+  "height": 400,
+  "data": {"url": "https://raw.githubusercontent.com/nabeelfahim/visualisation2/main/transformed_energy_data.csv", "format": {"type": "csv"}},
+  "background": "transparent",
+  "encoding": {
+    "x": {
+      "timeUnit": "year",
+      "field": "Year",
+      "axis": {"format": "%Y"},
+      "title": "Year"
+    },
+    "y": {
+      "aggregate": "sum",
+      "field": "Value",
+      "title": "Energy Consumed (TWh)"
+    }
+  },
+  "layer": [
+    {
+      "params": [
+        {"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}
+
+        
+      ],
+      "mark": "area"
+    },
+    {
+      "transform": [{"filter": {"param": "brush"}}],
+      "mark": {"type": "area", "color": "goldenrod"}
+    },
+    {
+      "mark": "area",
+      "encoding": {
+        "color": {
+          "field": "Energy_Source",
+          "scale": {"scheme": "tableau10"},
+          "title": "Energy Source",
+          "legend":{
+              "orient": "top-left",
+              "rowPadding": 4,
+              "titleFontSize": 13,
+              "labelFontSize": 10,
+              "labelExpr": "{'Electricity from fossil fuels (TWh)': 'Fossil Fuels', 'Electricity from renewables (TWh)': 'Renewables', 'Electricity from nuclear (TWh)': 'Nuclear'}[datum.label]"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "Energy_Source",
+            "type": "nominal",
+            "title": "Energy Source"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {"type": "rule"},
+      "encoding": {
+        "x": {"value": 180},
+        "y": {"value": 130},
+        "x2": {"value": 200},
+        "y2": {"value": 80},
+        "color": {"value": "red"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "dx": 5,
+        "fontSize": 12,
+        "font": "Arial",
+        "opacity": 0.99
+      },
+      "encoding": {
+        "x": {"value": 145},
+        "y": {"value": 62},
+        "color": {"value": "black"},
+        "text": {
+          "value": ["2008 financial crisis "]
+        }
+      }
+    },
+    {
+      "mark": {"type": "rule"},
+      "encoding": {
+        "x": {"value": 405},
+        "y": {"value": 43},
+        "x2": {"value": 375},
+        "y2": {"value": 30},
+        "color": {"value": "red"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "dx": 5,
+        "fontSize": 12,
+        "font": "Arial",
+        "opacity": 0.99
+      },
+      "encoding": {
+        "x": {"value": 305},
+        "y": {"value": 10},
+        "color": {"value": "black"},
+        "text": {"value": ["COVID-19 pandemic"]}
+      }
+    }
+  ],
+  "config": {
+  "axis": {
+    "grid": false 
+   }
+  }
+}

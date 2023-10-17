@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Energy Insights</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css" />
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <script src="choropleth_map.vg.json"></script>
+    <script src="stacked_bar_chart.vg.json"></script>
+    <script src="scatter_plot.vg.json"></script>
+
+</head>
+<body>
+    <div class="enclosure">
+      <div id="MainTitle">
+        <h1>Energy Consumption Insights Across the Globe</h1>
+      </div>
+
+      <hr style="color: lightcoral; background-color: lightcoral; height: 2px; border: none; margin-top: 15px;">
+
+      <div id="ChoroplethVisTitle">Global Energy Consumption Per 1000 People</div>
+      
+      <div class="pure-g">
+        <div class="pure-u-1">
+          <div id="choropleth_map">
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="color: lightcoral; background-color: lightcoral; height: 2px; border: none; margin-top: 15px;">
+
+      <div id="StackedbarVisTitle">Energy Source Breakdown by Continent</div>
+
+      <div class="pure-g">
+        <div class="pure-u-2-3">
+          <div id="stacked_bar" class="container"></div>
+        </div>
+
+        <div class="pure-u-1-3">
+          <div class="Paragrapgh" style="margin-right: 85px; margin-top: 6px;">
+            Overall, <span class="boldtext">Asia</span> produces the <span class="boldtext">highest</span> amount of energy across all continents.
+            <br><br>
+            Energy consumption is linked to the <span class="boldtext">population</span> and <span class="boldtext">enconomy</span>.
+            <br><br>
+            So <span class="italictext">higher</span> the <span class="boldtext">population</span> of a continent or <span class="italictext">larger</span> the <span class="boldtext">enconomy</span>, energy consumption tends to <span class="italictext">increase</span>.
+          </div>
+        </div>
+      </div>
+
+      <hr style="color: lightcoral; background-color: lightcoral; height: 2px; border: none; margin-top: 15px;">
+
+      <div id="ScatterplotVisTitle">GDP Per Capita Vs. Energy Consumption</div>
+
+      <div class="pure-g">
+        <div class="pure-u-2-3">
+          <div id="scatter_plot" class="container"></div>
+        </div>
+
+        <div class="pure-u-1-3">
+          <div class="Paragrapgh" style="margin-right: 85px; margin-top: 6px;">
+            There is a <span class="boldtext">positive correlation</span> between the GDP and total energy Produced .
+            <br><br>
+            Countries like <span class="boldtext">India</span> and <span class="boldtext">China</span> produce the <span class="boldtext">highest</span> amount of energy despite having a small GDP per capita.
+            <br><br>
+            This is due to the fact that they have <span class="boldtext">very large</span> populations requiring more energy 
+            
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="color: lightcoral; background-color: lightcoral; height: 2px; border: none; margin-top: 15px;">
+
+      <div id="StackedAreaVisTitle">Energy Consumption Growth by Source</div>
+
+      <div class="pure-g">
+        <div class="pure-u-2-3">
+          <div id="stacked_area" class="container"></div>
+        </div>
+
+        <div class="pure-u-1-3">
+          <div class="Paragrapgh" style="margin-right: 85px; margin-top: 6px;">
+            Overall, There is a constant <span class="boldtext">increase</span> in energy consumed over the years.
+            <br><br>
+            There is a sudden dip in energy consumed duing the years <span class="boldtext">2008</span> and <span class="boldtext">2019</span>
+            <br><br>
+            This was caused by the <span class="boldtext">financial crisis</span> of 2008 and then the <span class="boldtext">pandemic</span> during 2019
+            reducing global demand for energy.
+          </div>
+        </div>
+      </div>
+
+
+     
+
+
+      <hr style="color: lightcoral; background-color: lightcoral; height: 2px; border: none; margin-top: 15px;">
+
+      <div id="radialPlotVisTitle">Renewable Energy Proportion To Total Energy</div>
+      
+      <div class="pure-g">
+        <div class="pure-u-2-3">
+          <div id="radial_plot" class="container"></div>
+        </div>
+
+        <div class="pure-u-1-3">
+          <div class="Paragrapgh" style="margin-right: 85px; margin-top: 6px;">
+            We have selected a few from the list of Countries that have promised to go green by <span class="boldtext">2030</span>.
+            <br><br>
+            For the most part, <span class="boldtext">Canada</span> produces the <span class="boldtext">highest</span> Renewable energy with proportion to total energy Produced.
+            <br><br>
+            And the <span class="boldtext">United Kingdom</span> has the <span class="boldtext">greatest</span> overall <span class="italictext">financial crisis</span> in Renewable energy over the years <span class="boldtext">2000-2022</span>.
+            
+          </div>
+        </div>
+      </div>
+
+
+      <div class="pure-g">
+        <div class="pure-u-1-1 small-font">
+          <p style="text-align: center; margin-top: 150px;">Visualisation created by <a href="https://github.com/nabeelfahim">Nabeel Fahim</a>. Data collected from <a href="https://ourworldindata.org/grapher/elec-mix-bar">ourworldindata</a>.</p>
+        </div>
+
+      
+        
+      </div>
+
+      
+  
+
+
+
+    </div>
+    
+
+
+
+    
+    
+
+
+    <script type="text/javascript">
+
+        var choropleth_vis = "choropleth_map.vg.json";
+        vegaEmbed('#choropleth_map', choropleth_vis,{"actions": false}).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        var stacked_bar_vis = "stacked_bar_chart.vg.json";
+        vegaEmbed('#stacked_bar', stacked_bar_vis,{"actions": false}).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        var scatter_plot_vis = "scatter_plot.vg.json";
+        vegaEmbed('#scatter_plot', scatter_plot_vis,{"actions": false}).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        var stacked_area_vis = "stacked_area.vg.json";
+        vegaEmbed('#stacked_area', stacked_area_vis,{"actions": false}).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        var radial_plot_vis = "radial_plot.vg.json";
+        vegaEmbed('#radial_plot', radial_plot_vis,{"actions": false}).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+      
+       
+      </script>
+    
+</body>
+</html>

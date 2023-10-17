@@ -1,0 +1,154 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 400,
+  "background":"transparent",
+  "data": {
+    "name": "energyData",
+    "url": "new_total_energy_consumption.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {
+      "lookup": "Country",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/nabeelfahim/visualisation2/main/gdp_per_capita_2018.csv",
+          "format": {"type": "csv"}
+        },
+        "key": "Country",
+        "fields": ["GDP_per_capita"]
+      },
+      "as": "GDP_per_capita"
+    },
+    {"filter": "datum.GDP_per_capita > 0"},
+    {"filter": "datum.TotalEnergy > 0"}
+  ],
+  
+  "encoding": {
+    "x": {
+      "field": "GDP_per_capita",
+      "type": "quantitative",
+      "title": "GDP Per Capita in $",
+      "axis": {"tickCount": 7},
+      "scale": {"type": "log", "domain": [1000, 150000]}
+    },
+    "y": {
+      "field": "TotalEnergy",
+      "type": "quantitative",
+      "title": "Total Energy in MW",
+      "axis": {"tickCount": 6},
+      "scale": {"type": "log", "domain": [0.1, 100000]}
+    }
+  },
+  "layer": [
+    {
+      "params": [
+        {
+            "name": "continent_highlight",
+            "select": {
+                "type": "point",
+                "fields": ["Continent"]
+            },
+            "bind": "legend"
+        },
+        {
+          "name": "grid",
+          "select": "interval",
+          "bind": "scales"
+        }
+    ],
+      "mark": "circle",
+      "encoding": {
+        "color": {
+          "field": "Continent",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "North America",
+              "South America",
+              "Europe",
+              "Africa",
+              "Asia",
+              "Oceania"
+            ],
+            "range": [
+              "#e41a1c",
+              "#984ea3",
+              "#ff7f00",
+              "#a6cee3",
+              "#377eb8",
+              "#a65628"
+            ]
+          }
+        },
+        
+        
+        "size": {
+          "field": "Population",
+          "type": "quantitative",
+          "title": "Population",
+          "scale": {
+            "type": "threshold",
+            "domain": [1000000, 10000000, 50000000, 100000000, 500000000],
+            "range": [10, 50, 150, 200, 300, 400]
+          },
+          "legend": {"format": ".1s"}
+        },
+        "opacity": {
+        
+        "condition": {"param": "continent_highlight", "value": 0.6},"value": 0.15},
+        "tooltip": [
+          {"field": "Country", "type": "nominal"},
+          {"field": "Population", "type": "quantitative", "format": ","},
+          {"field": "GDP_per_capita", "type": "quantitative", "format": ".2f", "title": "GDP Per Capita in $"},
+          {"field": "TotalEnergy", "type": "nominal", "format": ".2f", "title": "Total energy in MW"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "Country", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['Country'] == 'China' || datum['Country'] == 'Qatar' || datum['Country'] == 'India' || datum['Country'] == 'Ireland' || datum['Country'] == 'Panama' || datum['Country'] == 'Bangladesh' ","value": 1 },"value": 0 }
+     }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "blue"
+      },
+
+      "transform": [
+        {
+          "regression": "TotalEnergy",
+          "on": "GDP_per_capita"
+        }
+      ],
+      
+      "encoding": {
+        "x": {
+          "field": "GDP_per_capita",
+          "type": "quantitative"
+         
+        },
+        "y": {
+          "field": "TotalEnergy",
+          "type": "quantitative"
+         
+        }
+      }
+    }
+  ]
+
+}

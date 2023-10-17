@@ -1,0 +1,250 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 550,
+  "height": 400,
+  "background" : "transparent",
+  "data": {"url": "https://raw.githubusercontent.com/nabeelfahim/visualisation2/main/sum_elec-mix-bars-2000.csv", "format": {"type": "csv"}},
+  "params": [
+    {
+      "name": "energy_source_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Electricity from fossil fuels (TWh)",
+          "Electricity from renewables (TWh)",
+          "Electricity from nuclear (TWh)"
+        ],
+        "labels": ["Show All", "Fossil Fuels", "Renewable", "Nuclear"],
+        "name": "Energy Source: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "energy_source_selection == null || datum.Energy_Source == energy_source_selection"
+    },
+    {
+      "calculate": "if(datum.Energy_Source === 'Electricity from fossil fuels (TWh)', 0, if(datum.Energy_Source === 'Electricity from renewables (TWh)', 1, 2))",
+      "as": "siteOrder"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Entity",
+      "type": "ordinal",
+      "title": "Continent",
+      "sort": {"field": "Value", "op": "sum", "order": "descending"}
+    },
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": "Total Energy Produced (TWh)"
+    },
+    "color": {
+      "field": "Energy_Source",
+      "type": "nominal",
+      "title": "Energy Source",
+      "scale" : {"scheme": "tableau10"},
+      "legend":{
+        "orient": "top-right",
+        "rowPadding": 4,
+        "titleFontSize": 13,
+        "labelFontSize": 10,
+        "labelExpr": "{'Electricity from fossil fuels (TWh)': 'Fossil Fuels', 'Electricity from renewables (TWh)': 'Renewables', 'Electricity from nuclear (TWh)': 'Nuclear'}[datum.label]"
+      }
+      
+    },
+    "order": {"field": "siteOrder"},
+    "tooltip": [
+      {"field": "Energy_Source", "type": "nominal", "title": "Energy Source"},
+      {
+        "field": "Value",
+        "type": "quantitative",
+        "title": "Total Energy in Twh",
+        "format": ".1f"
+      },
+      {"field": "Entity", "type": "nominal", "title": "Continent"}
+    ]
+  },
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "color": {
+          "field": "Energy_Source",
+          "type": "nominal",
+          "title": "Energy Source"
+        },
+        "order": {"field": "siteOrder"},
+        "tooltip": [
+          {
+            "field": "Energy_Source",
+            "type": "nominal",
+            "title": "Energy Source"
+          },
+          {
+            "field": "Value",
+            "type": "quantitative",
+            "title": "Energy Produced in Twh",
+            "format": ".1f"
+          },
+          {"field": "Entity", "type": "nominal", "title": "Continent"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "rule"},
+      "encoding": {
+        "x": {"value": 280},
+        "y": {"value": 240},
+        "x2": {"value": 350},
+        "y2": {"value": 200},
+        "color": {"value": "black"},
+        "opacity": {
+          "condition": {"test": "energy_source_selection == null", "value": 1},
+          "value": 0
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "dx": 5,
+        "fontSize": 12,
+        "font": "Arial"
+      },
+      "encoding": {
+        "x": {"value": 350},
+        "y": {"value": 180},
+        "color": {"value": "black"},
+        "text": {"value": ["Europe produces the highest ", " amount of "]},
+        "opacity": {
+          "condition": {"test": "energy_source_selection == null", "value": 0.75},
+          "value": 0
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "dx": 5,
+        "fontSize": 12,
+        "font": "Arial"
+      },
+      "encoding": {
+        "x": {"value": 407},
+        "y": {"value": 194},
+        "color": {"value": "#FF8C00"},
+        "text": {"value": ["nuclear energy"]},
+        "opacity": {
+          "condition": {"test": "energy_source_selection == null", "value": 0.99},
+          "value": 0
+        }
+      }
+    },
+    {
+      "mark": {"type": "rule"},
+      "encoding": {
+        "x": {"value": 350},
+        "y": {"value": 360},
+        "x2": {"value": 400},
+        "y2": {"value": 300},
+        "color": {"value": "black"},
+        "opacity": {
+          "condition": {"test": "energy_source_selection == null", "value": 1},
+          "value": 0
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "dx": 5,
+        "fontSize": 12,
+        "font": "Arial"
+      },
+      "encoding": {
+        "x": {"value": 400},
+        "y": {"value": 275},
+        "color": {"value": "black"},
+        "text": {"value": ["South America the only", "continent using more "]},
+        "opacity": {
+          "condition": {"test": "energy_source_selection == null", "value": 0.75},
+          "value": 0
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "dx": 5,
+        "fontSize": 12,
+        "font": "Arial"
+      },
+      "encoding": {
+        "x": {"value": 400},
+        "y": {"value": 304},
+        "color": {"value": "#ea6061"},
+        "text": {"value": ["renewables"]},
+        "opacity": {
+          "condition": {"test": "energy_source_selection == null", "value": 0.99},
+          "value": 0
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "dx": 5,
+        "fontSize": 12,
+        "font": "Arial"
+      },
+      "encoding": {
+        "x": {"value": 464},
+        "y": {"value": 304},
+        "color": {"value": "black"},
+        "text": {"value": ["than"]},
+        "opacity": {
+          "condition": {"test": "energy_source_selection == null", "value": 0.9},
+          "value": 0
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "dx": 5,
+        "fontSize": 12,
+        "font": "Arial"
+      },
+      "encoding": {
+        "x": {"value": 490},
+        "y": {"value": 304},
+        "color": {"value": "#4866a5"},
+        "text": {"value": ["fossils"]},
+        "opacity": {
+          "condition": {"test": "energy_source_selection == null", "value": 0.99},
+          "value": 0
+        }
+      }
+    }
+  ],
+  "config": {
+  "axis": {
+    "grid": false 
+  }
+}
+}

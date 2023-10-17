@@ -1,0 +1,122 @@
+.enclosure {
+    width: 1100px;
+    background-color: #f2fefe;
+    margin: auto;
+    padding: 50px;
+    padding-top: 35px;
+    flex-wrap: wrap;
+}
+
+#MainTitle{
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    font-size: larger;
+}
+
+
+#ChoroplethVisTitle{
+    font-family: 'PT Serif', serif;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 190px;
+
+}
+
+#StackedbarVisTitle{
+    
+        font-family: 'PT Serif', serif;
+        text-align: left;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 155px;
+    
+}
+
+#ScatterplotVisTitle{
+    font-family: 'PT Serif', serif;
+        text-align: left;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 140px;
+    
+}
+
+#StackedAreaVisTitle{
+        font-family: 'PT Serif', serif;
+        text-align: left;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+    
+}
+
+
+#radialPlotVisTitle{
+    font-family: 'PT Serif', serif;
+        text-align: left;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+
+}
+
+#choropleth_map{
+    margin-left: 80px;
+}
+
+#stacked_bar{
+    margin-left: 80px;
+}
+
+#scatter_plot{
+    margin-left: 80px;
+}
+
+#stacked_area{
+    margin-left: 80px;
+}
+
+#radial_plot{
+    margin-left: 134px;
+}
+
+.pure-g {
+    margin-bottom: 40px;
+}
+
+.container {
+    width: 100%;
+}
+
+.Paragrapgh{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    word-spacing: 2px;
+    margin-left: 45px;
+}
+
+.italictext{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    word-spacing: 2px;
+    font-style: italic;
+
+}
+
+.boldtext{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    word-spacing: 2px;
+    font-weight: bolder;
+
+
+}
