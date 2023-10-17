@@ -4,7 +4,7 @@
     "height": 450,
     "background" : "transparent",
     "data": {
-      "url": "renewable_proportion_filt.csv"
+      "url": "https://raw.githubusercontent.com/nabeelfahim/assignment2final/main/renewable_proportion_filt.csv"
     },
     "params": [
         {
@@ -17,13 +17,16 @@
               "step": 1,
               "name": "Year: "
           } }
+
+         
     ],
     "transform": [{"filter": "datum.Year == Year_At" 
     }],
     
     "layer": [{
       "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"
-      }
+      },
+      "params":[{"name": "highlight", "select": {"type": "point", "on": "mouseover"}}]
     },
     {
       "mark": {"type": "text", "radiusOffset": 10},
@@ -34,10 +37,17 @@
     "encoding": {
       "theta": {"field": "ProportionRenewable", "type": "quantitative", "stack": true},
       "radius": {"field": "ProportionRenewable", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
+      "stroke": {
+        "condition": {"param": "highlight", "empty": false, "value": "black"},
+        "value": null
+      },
+      "opacity": {"condition": {"param": "highlight", "value": 1}, "value": 0.5},
       "color": {"field": "Entity", "type": "nominal", "legend": {"title": "Country"}},
       "tooltip":[
       {"field": "Entity", "type": "nominal", "title": "Country"},
       {"field": "ProportionRenewable", "type": "quantitative", "title": "Renewable Energy Proportion to total energy produced", "format": ".2f"}]
+      
     }
+
     
   }
